@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength
 
 def decode(char)
   check = {
