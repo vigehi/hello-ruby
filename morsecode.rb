@@ -27,23 +27,11 @@ def decode(char)
     'y' => '-.--',
     'z' => '--..',
     ' ' => ' ',
-    '1' => '.----',
-    '2' => '..---',
-    '3' => '...--',
-    '4' => '....-',
-    '5' => '.....',
-    '6' => '-....',
-    '7' => '--...',
-    '8' => '---..',
-    '9' => '----.',
-    '0' => '-----'
   }
 
   check.key(char).upcase
 end
-# rubocop:enable Metrics/MethodLength
 
-# get each word
 def decode_words(code)
   codelist = code.split
   word = ''
@@ -53,7 +41,6 @@ def decode_words(code)
   word
 end
 
-# combine words in message
 def morse_message(codes)
   codelist = codes.split('  ')
   message = ''
@@ -63,5 +50,4 @@ def morse_message(codes)
   message
 end
 
-# Returns A BOX FULL OF RUBIES
 puts morse_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
