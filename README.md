@@ -1,3 +1,24 @@
-# hello-ruby
+## Hello morse code
 
-Write a method add, it takes 2 arguments (a and b), and it returns the addition of the two arguments
+A simple program that automate decoding of morse code.
+
+## Built With
+
+    Ruby
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps
+
+    Clone the project to the local computer
+    ruby morsecode.rb
+
+## Prerequisite:
+
+    visual code editor
+    Knowledge About Ruby
+
+## Author
+
+    oga
+        GitHub: @vigehi
