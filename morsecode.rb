@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/MethodLength
+
 def decode(char)
   check = {
     'a' => '.-',
