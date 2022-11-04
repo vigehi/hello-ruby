@@ -26,7 +26,7 @@ def decode(char)
     'x' => '-..-',
     'y' => '-.--',
     'z' => '--..',
-    ' ' => ' ',
+    ' ' => ' '
   }
 
   check.key(char).upcase
