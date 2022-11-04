@@ -53,3 +53,4 @@ def morse_message(codes)
 end
 
 puts morse_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts morse_message(' -- -.--  -. .- -- .')
